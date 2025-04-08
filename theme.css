@@ -23,6 +23,9 @@ body {
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
 	
+	  /* Code */
+  --code-background: var(--lt-gray);
+	
 	/* Font */
 	--font-text-theme: 'Montserrat', sans-serif;
   
