@@ -8,6 +8,9 @@
  --dk-gray: #343a40;
  --md-gray: #545859;
  --lt-gray: #ddd;
+ --lt-gray-rgb: 221, 221, 221;
+ --lt-orange: #FBCFC5;
+ --lt-orange-rgb: 251, 207, 197;
  --orange: #F58870;
  --dk-orange: #F68D2E;
 }
@@ -23,7 +26,12 @@ body {
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
 	
-	  /* Code */
+	/* Callouts */
+	--callout-title-color: var(--orange);
+	--callout-title-size: 1.1rem;
+	--callout-question: var(--lt-orange-rgb);
+	
+	/* Code */
   --code-background: var(--lt-gray);
 	
 	/* Font */
