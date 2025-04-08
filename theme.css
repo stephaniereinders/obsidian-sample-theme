@@ -25,6 +25,7 @@ body {
 	--font-text-theme: 'Montserrat', sans-serif;
   --font-weight: 500;
   --font-size: 16px;
+  color: var(--md-gray);
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
