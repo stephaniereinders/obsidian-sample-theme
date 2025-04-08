@@ -22,9 +22,11 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	
+	/* Font */
 	--font-text-theme: 'Montserrat', sans-serif;
-  --font-weight: 500;
   
+  /* Headings */
   --h1-color: var(--blue);
   --h1-weight: 100;
   --h1-size: calc(2rem + 1.5vw);
@@ -38,8 +40,10 @@ body {
   /* Horizontal rules */
   --hr-thickness: 1px;
   
-    color: var(--dk-orange);
+  /* Body font color */
+  --text-normal: var(--md-gray);
 }
+
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
 	display: none;
