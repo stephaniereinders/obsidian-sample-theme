@@ -24,8 +24,17 @@ body {
 	--slider-thumb-radius: 0px;
 	--font-text-theme: 'Montserrat', sans-serif;
   --font-weight: 500;
-  --font-size: 16px;
   color: var(--md-gray);
+  
+  --h1-color: var(--blue);
+  --h1-weight: 100;
+  --h1-size: calc(2rem + 1.5vw);
+  --h2-color: var(--blue);
+  --h2-weight: 700;
+  --h2-size: calc(1rem + 0.6vw);
+  --h3-color: var(--blue);
+  --h3-weight: 500;
+  --h3-size: calc(1rem + 0.6vw);
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
