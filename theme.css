@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
@@ -8,6 +10,9 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--font-text-theme: 'Montserrat', sans-serif;
+  --font-weight: 500;
+  --font-size: 16px;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
