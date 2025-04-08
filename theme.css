@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+ --blue: #003A70;
+ --lt-blue: #6BA4B8;
+ --purple: #981E97;
+ --lt-purple: #B24DB2;
+ --dk-gray: #343a40;
+ --md-gray: #545859;
+ --lt-gray: #ddd;
+ --orange: #F58870;
+ --dk-orange: #F68D2E;
+}
+
 body {
 	--radius-s: 0px;
 	--radius-m: 0px;
